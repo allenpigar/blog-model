@@ -1,0 +1,39 @@
+
+  - description: ""
+    label: "Contact"
+    name: "contact"
+    sort: 130
+    listed: true
+    parent: "0"
+    hasRoute: true
+    showAsTable: false
+    view: "/views/contact.tpl"
+    contents: "/content/contact.yaml"
+    fields:
+      - name: "title"
+        label: "Title"
+        description: ""
+        datatype: "text"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "content"
+        label: "Content"
+        description: ""
+        datatype: "wysiwyg_basic"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
+      - name: "google_maps_iframe_url"
+        label: "Google Maps iframe URL"
+        description: ""
+        datatype: "textarea"
+        sort: 10000
+        required: false
+        relationship: null
+        settings:
+          list: true
